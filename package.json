@@ -43,7 +43,7 @@
     "@graphql-codegen/introspection": "^1.17.8",
     "@graphql-codegen/typed-document-node": "^1.17.9",
     "@graphql-codegen/typescript": "1.22.0",
-    "@graphql-codegen/typescript-graphql-request": "^2.0.0",
+    "@graphql-codegen/typescript-graphql-request": "^3.0.1",
     "@graphql-codegen/typescript-operations": "^1.17.8",
     "@types/absinthe__socket": "^0.2.1",
     "@types/absinthe__socket-apollo-link": "^0.2.1",

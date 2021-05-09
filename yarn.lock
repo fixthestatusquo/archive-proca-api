@@ -623,15 +623,15 @@
     change-case-all "1.0.14"
     tslib "~2.2.0"
 
-"@graphql-codegen/typescript-graphql-request@^2.0.0":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript-graphql-request/-/typescript-graphql-request-2.0.3.tgz#d197289357e89990555cd4acbe4c3b2a930ae334"
-  integrity sha512-++PkrQZ3krTzhlGlHRIE0sJBJXAZ1zKwgCAJcNkUvXeV0heBxs7aiYKFyBErwAXJTjC9m0CETU28thsZi04eZg==
+"@graphql-codegen/typescript-graphql-request@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript-graphql-request/-/typescript-graphql-request-3.0.1.tgz#dbfb1e6566919359d3c6c5b8ba3a90faf2c92634"
+  integrity sha512-KuHjMM3GEItM555zE7ySZn5cu7A6Tr1kgunob1QMUcSVRaE26ChNtD1Ummm2PXQEM4VXNu64eK5DWJ/xkR0eBg==
   dependencies:
     "@graphql-codegen/plugin-helpers" "^1.18.2"
-    "@graphql-codegen/visitor-plugin-common" "^1.17.20"
+    "@graphql-codegen/visitor-plugin-common" "^1.18.1"
     auto-bind "~4.0.0"
-    tslib "~2.0.1"
+    tslib "~2.1.0"
 
 "@graphql-codegen/typescript-operations@^1.17.8":
   version "1.17.16"
@@ -654,7 +654,7 @@
     auto-bind "~4.0.0"
     tslib "~2.2.0"
 
-"@graphql-codegen/visitor-plugin-common@^1.17.20", "@graphql-codegen/visitor-plugin-common@^1.20.0":
+"@graphql-codegen/visitor-plugin-common@^1.17.20", "@graphql-codegen/visitor-plugin-common@^1.18.1", "@graphql-codegen/visitor-plugin-common@^1.20.0":
   version "1.20.0"
   resolved "https://registry.yarnpkg.com/@graphql-codegen/visitor-plugin-common/-/visitor-plugin-common-1.20.0.tgz#38d829eab7370c79aa5229190788f94adcae8f76"
   integrity sha512-AYrpy8NA3DpvhDLqYGerQRv44S+YAMPKtwT8x9GNVjzP0gVfmqi3gG1bDWbP5sm6kOZKvDC0kTxGePuBSZerxw==
@@ -3613,6 +3613,11 @@ tslib@~2.0.1:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.0.3.tgz#8e0741ac45fc0c226e58a17bfc3e64b9bc6ca61c"
   integrity sha512-uZtkfKblCEQtZKBF6EBXVZeQNl82yqtDQdv+eck8u7tdPxjLu2/lp5/uPW+um2tpuxINHWy3GhiccY7QgEaVHQ==
+
+tslib@~2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.1.0.tgz#da60860f1c2ecaa5703ab7d39bc05b6bf988b97a"
+  integrity sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A==
 
 type-fest@^0.11.0:
   version "0.11.0"
