@@ -613,15 +613,15 @@
     tslib "~2.2.0"
 
 "@graphql-codegen/typed-document-node@^1.17.9":
-  version "1.18.1"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/typed-document-node/-/typed-document-node-1.18.1.tgz#b2fae8e2a6fbbeaf003094380ac934d70282a80b"
-  integrity sha512-pwuOvGkeD30n7HIkmPmNFSh3VxFJhuh76HhyJPEQHQDN6fRrmSKnjBsIthIfabYAvcMEO+6bWO7VyKDlNrEdNg==
+  version "1.18.5"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/typed-document-node/-/typed-document-node-1.18.5.tgz#758ac2b943e0986cefd334cd042c9ed6f6ee9281"
+  integrity sha512-vy9YISrxRSCWe95IPTCa0aAHJqYTMgVxd1qQHLSnbSsK99DZ8h+XFg7NFvrAiDI0dtEGZNtQHRgu4qSBYUSmuA==
   dependencies:
-    "@graphql-codegen/plugin-helpers" "^1.18.2"
-    "@graphql-codegen/visitor-plugin-common" "^1.17.20"
+    "@graphql-codegen/plugin-helpers" "^1.18.5"
+    "@graphql-codegen/visitor-plugin-common" "^1.20.0"
     auto-bind "~4.0.0"
-    change-case "^4.1.1"
-    tslib "~2.0.1"
+    change-case-all "1.0.14"
+    tslib "~2.2.0"
 
 "@graphql-codegen/typescript-graphql-request@^2.0.0":
   version "2.0.3"
@@ -1458,7 +1458,7 @@ change-case-all@1.0.14:
     upper-case "^2.0.2"
     upper-case-first "^2.0.2"
 
-change-case@^4.1.1, change-case@^4.1.2:
+change-case@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/change-case/-/change-case-4.1.2.tgz#fedfc5f136045e2398c0410ee441f95704641e12"
   integrity sha512-bSxY2ws9OtviILG1EiY5K7NNxkqg/JnRnFxLtKQ96JaviiIxi7djMrSd0ECT9AC+lttClmYwKw53BWpOMblo7A==
